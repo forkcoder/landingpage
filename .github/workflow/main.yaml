@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-name: 🚀 Mitverse
+name: 🚀 Landing Page
 jobs:
   web-deploy:
     name: 🎉 Deploy
