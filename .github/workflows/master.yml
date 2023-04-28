@@ -16,6 +16,6 @@ jobs:
       with:
         server: ftp.forkcoder.com
         port: 21
-        server-dir: /public_html/
-        username: lander@forkcoder.com
-        password:  Uw?!Ii8AauD0
+        server-dir: ${{ secrets.FtpLocation }}
+        username: ${{ secrets.FtpUsername }}
+        password: ${{ secrets.FtpPassword }}
