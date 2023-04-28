@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-name: 🚀 Landing Page
+name: 🚀 LandingPage
 jobs:
   web-deploy:
     name: 🎉 Deploy
