@@ -15,7 +15,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.forkcoder.com
-        port: 21
-        server-dir: ${{ secrets.FtpLocation }}
+        local-dir: ./
+        remote-dir: ${{ secrets.FtpLocation }}
         username: ${{ secrets.FtpUsername }}
         password: ${{ secrets.FtpPassword }}
